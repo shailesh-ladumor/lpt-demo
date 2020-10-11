@@ -1,0 +1,19 @@
+.image__file-upload {
+  padding: 10px;
+  background: #20a8d8;
+  display: table;
+  color: white;
+  border-radius: 0.25rem;
+  border-color: #20a8d8;
+}
+
+.image__file-upload .d-none {
+  display: none;
+}
+
+.image__file-upload:hover {
+  cursor: pointer;
+  background-color: #1985ac;
+  border-color: #187da0;
+}
+
