@@ -1,8 +1,5 @@
 # Welcome To Laravel Package Tutorial
 
-## Image Intervention  (Applying Effect on Image)
-
-* filter()
-* pixelate()
-* rotate()
-* blur()
+* Media upload from Image
+* Media Collection
+* Delete Images
