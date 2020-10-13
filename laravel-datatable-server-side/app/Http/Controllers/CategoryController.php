@@ -9,6 +9,8 @@ use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
+use Yajra\DataTables\Facades\DataTables;
+use App\Queries\CategoryDatatable;
 
 class CategoryController extends AppBaseController
 {
@@ -29,6 +31,10 @@ class CategoryController extends AppBaseController
      */
     public function index(Request $request)
     {
+        if($request->ajax()){
+             return datatables::of((new CategoryDatatable())->get())->make(true);
+        }
+
         $categories = $this->categoryRepository->all();
 
         return view('categories.index')

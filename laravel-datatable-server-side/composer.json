@@ -18,7 +18,8 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.1",
-        "laravelcollective/html": "^6.1"
+        "laravelcollective/html": "^6.1",
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.7",
