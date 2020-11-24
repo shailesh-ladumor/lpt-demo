@@ -150,13 +150,11 @@ class CategoryController extends AppBaseController
         if (empty($category)) {
             Flash::error('Category not found');
 
-            return redirect(route('categories.index'));
+            return $this->sendError('Category not found.');
         }
 
         $this->categoryRepository->delete($id);
 
-        Flash::success('Category deleted successfully.');
-
-        return redirect(route('categories.index'));
+        return $this->sendSuccess('Category deleted successfully.');
     }
 }

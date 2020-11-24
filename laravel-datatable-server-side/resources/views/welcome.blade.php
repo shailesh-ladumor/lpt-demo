@@ -81,14 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   Server Side Datatable in Laravel 
+                  How Delete record from Datatable Using Ajex 
                 </div>
 
-                <div class="links">
-                    <a target="_blank" href="https://github.com/yajra/laravel-datatables">
-                        yajra / laravel-datatables
-                    </a>
-                </div>
                 <br>
                 <div class="links">
                     <a href="#"><strong>- By Shailesh Ladumor</strong></a>
