@@ -2,4 +2,4 @@
 
 ## Video Tutorials
 
-[<img src="https://img.youtube.com/vi/YJwLbcAFY4M/0.jpg" width="580">](https://youtu.be/YJwLbcAFY4M)
+[<img src="https://img.youtube.com/vi/DjK9jPDdcR0/0.jpg" width="580">](https://youtu.be/DjK9jPDdcR0)
