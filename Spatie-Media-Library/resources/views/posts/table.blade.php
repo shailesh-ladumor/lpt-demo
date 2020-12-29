@@ -3,7 +3,7 @@
         <thead>
             <tr>
                 <th>Name</th>
-        <th>Image Url</th>
+                 <th>Image Url</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>

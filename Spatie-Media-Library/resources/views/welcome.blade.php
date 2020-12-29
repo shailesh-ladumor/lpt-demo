@@ -80,8 +80,11 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Spatie Media Library
+                <div style="font: 105px"  class="title m-b-md">
+                    <b>Spatie Media Library</b>
+                </div>
+                <div style="font: 20px" class="title m-b-md">
+                  Set Custom Path
                 </div>
 
                 <div class="links">

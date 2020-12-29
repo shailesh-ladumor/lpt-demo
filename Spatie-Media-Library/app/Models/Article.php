@@ -8,28 +8,22 @@ use Spatie\MediaLibrary\HasMedia\HasMedia;
 use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
 /**
- * Class Post
+ * Class Article
  * @package App\Models
- * @version April 12, 2020, 5:21 am UTC
+ * @version December 23, 2020, 3:10 am UTC
  *
- * @property string name
- * @property string image_url
  */
-class Post extends Model implements HasMedia
+class Article extends Model implements HasMedia
 {
     use SoftDeletes, HasMediaTrait;
 
-    public $table = 'posts';
-
-    const PATH = 'posts';
-
+    public $table = 'articles';
+    const PATH = 'articles';
+    
     protected $dates = ['deleted_at'];
 
-
-
     public $fillable = [
-        'name',
-        'image_url'
+        'name'
     ];
 
     /**
@@ -38,9 +32,7 @@ class Post extends Model implements HasMedia
      * @var array
      */
     protected $casts = [
-        'id' => 'integer',
-        'name' => 'string',
-        'image_url' => 'string'
+        'id' => 'integer'
     ];
 
     /**
@@ -51,6 +43,5 @@ class Post extends Model implements HasMedia
     public static $rules = [
 
     ];
-
 
 }
