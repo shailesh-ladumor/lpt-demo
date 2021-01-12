@@ -1,0 +1,31 @@
+[2020-12-25 14:54:43] local.ERROR: Command "cache:clean" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:table
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"cache:clean\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:table
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear at D:\\wamp64\\www\\laravel8\\vendor\\symfony\\console\\Application.php:675)
+[stacktrace]
+#0 D:\\wamp64\\www\\laravel8\\vendor\\symfony\\console\\Application.php(254): Symfony\\Component\\Console\\Application->find('cache:clean')
+#1 D:\\wamp64\\www\\laravel8\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\wamp64\\www\\laravel8\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\wamp64\\www\\laravel8\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\wamp64\\www\\laravel8\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
