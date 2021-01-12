@@ -29,3 +29,17 @@ Did you mean one of these?
 #4 D:\\wamp64\\www\\laravel8\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #5 {main}
 "} 
+[2021-01-12 03:10:54] local.ERROR: Too many arguments to "ui" command, expected arguments "type". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments to \"ui\" command, expected arguments \"type\". at D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Input\\ArgvInput.php:186)
+[stacktrace]
+#0 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Input\\ArgvInput.php(80): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('\\xE2\\x80\\x94-auth')
+#1 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Input\\Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Command\\Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Application.php(971): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Laravel\\Ui\\UiCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\symfony\\console\\Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 D:\\wamp64\\www\\lpt\\lpt-demo\\stisla-template\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
