@@ -38,12 +38,9 @@
 
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                   <h1  style="font-size: 95px">
-                    <a target="_blank" href="https://getstisla.com/">Stisla</a>
-                    <a target="_blank" href="https://github.com/InfyOmLabs/stisla-templates">Template</a>
-                    <a target="_blank" href="https://www.infyom.com/open-source/laravelgenerator/docs/8.0/stisla-templates">with</a>
-                    <a target="_blank" href="https://github.com/InfyOmLabs/laravel-generator">Infyom Generator</a>
-                    </h1>
+                   <h1 style="font-size: 105px">
+                    <a href="#">Global GitIgnore</a>
+                     </h1>
                 </div>
 
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
@@ -51,9 +48,9 @@
                         <div class="flex items-center">
                             <a style="font-size: 45px" href="https://laravel.bigcartel.com" class="ml-1 underline">
                                 Shailesh Ladumor
-                            </a>                     
+                            </a>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>

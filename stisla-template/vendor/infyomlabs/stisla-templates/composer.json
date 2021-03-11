@@ -1,0 +1,43 @@
+{
+    "name": "infyomlabs/stisla-templates",
+    "type": "library",
+    "description": "Stisla templates for InfyOm Laravel Generator",
+    "keywords": [
+        "infyom",
+        "laravel",
+        "generator",
+        "stisla",
+        "stisla-ui",
+        "templates",
+        "bootstrap"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitul Golakiya",
+            "email": "me@mitul.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "InfyOm\\StislaTemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\InfyOm\\StislaTemplates\\StislaTemplatesServiceProvider"
+            ]
+        }
+    },
+    "funding": [
+        {
+            "type": "opencollective",
+            "url": "https://opencollective.com/infyomlabs"
+        }
+    ]
+}

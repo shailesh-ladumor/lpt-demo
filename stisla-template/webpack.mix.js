@@ -65,3 +65,6 @@ mix.babel('node_modules/sweetalert/dist/sweetalert.min.js',
     'public/assets/js/sweetalert.min.js');
 mix.babel('node_modules/izitoast/dist/js/iziToast.min.js',
     'public/assets/js/iziToast.min.js');
+
+
+ mix.js('resources/assets/js/posts/posts.js', 'public/assets/js/posts/posts.js').version();

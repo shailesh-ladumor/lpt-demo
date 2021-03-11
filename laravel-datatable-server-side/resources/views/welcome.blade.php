@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  How Delete record from Datatable Using Ajex 
+                  How To Setup https with Virtual Host
                 </div>
 
                 <br>
