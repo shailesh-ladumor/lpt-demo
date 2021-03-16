@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  How To Setup https with Virtual Host
+                  How To Use route method in Js/javascript
                 </div>
 
                 <br>
