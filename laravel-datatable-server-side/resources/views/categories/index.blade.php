@@ -31,9 +31,9 @@
 
 @push('scripts')
 
-    {{-- <script>
-       let categoryUrl = '{{route('categories.index')}}';
-    </script> --}}
+    <script>
+    //    let categoryUrl = '{{route('categories.index')}}';
+    </script>
 
     <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 

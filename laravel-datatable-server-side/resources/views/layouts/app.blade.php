@@ -25,6 +25,7 @@
     <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css"/>
   
     @yield('css')
+    @routes
 </head>
 
 <body class="skin-blue sidebar-mini">
