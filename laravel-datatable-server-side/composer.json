@@ -20,6 +20,7 @@
         "laravel/ui": "^2.1",
         "laravelcollective/html": "^6.1",
         "tightenco/ziggy": "^1.0",
+        "laravelium/sitemap": "7.*",
         "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
