@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+	<loc>http://127.0.0.1:8000/home</loc>
+		<priority>1.0</priority>
+		<lastmod>2012-08-25T18:10:00+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/posts</loc>
+		<priority>0.9</priority>
+		<lastmod>2012-08-26T10:30:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/1/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-14T12:43:35+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/2/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-14T12:43:46+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/3/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-14T12:44:17+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/4/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-14T12:44:35+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/5/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-14T12:45:33+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/6/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-18T02:44:34+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+	<loc>http://127.0.0.1:8000/categories/7/edit</loc>
+		<priority>1.0</priority>
+		<lastmod>2021-03-18T02:44:44+00:00</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+</urlset>
+

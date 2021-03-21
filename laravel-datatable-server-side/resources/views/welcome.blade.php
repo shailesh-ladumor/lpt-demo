@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 124px;
+                font-size: 114px;
             }
 
             .links > a {
@@ -81,9 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  How To Use route method in Js/javascript
+                  How To Create  <a href="https://github.com/Laravelium/laravel-sitemap"> Sitemap</a> in laravel
                 </div>
-
+                
                 <br>
                 <div class="links">
                     <a href="#"><strong>- By Shailesh Ladumor</strong></a>

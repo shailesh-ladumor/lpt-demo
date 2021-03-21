@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e9cb5d8703e551452fb7250e8f972ec",
+    "content-hash": "a1ce3ad093189b9a45b5e76a40c3436e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1655,6 +1655,74 @@
                 "source": "https://github.com/LaravelCollective/html"
             },
             "time": "2020-12-15T20:20:05+00:00"
+        },
+        {
+            "name": "laravelium/sitemap",
+            "version": "v7.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laravelium/laravel-sitemap.git",
+                "reference": "9326fc2452d0de95327fb85a7f7119213c660942"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laravelium/laravel-sitemap/zipball/9326fc2452d0de95327fb85a7f7119213c660942",
+                "reference": "9326fc2452d0de95327fb85a7f7119213c660942",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "~7.0",
+                "illuminate/support": "~7.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "laravel/framework": "~7.0",
+                "orchestra/testbench-core": "~5.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravelium\\Sitemap\\SitemapServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Laravelium\\Sitemap": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rumen Damyanov",
+                    "email": "r@alfamatter.com",
+                    "homepage": "https://darumen.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravelium Sitemap package for Laravel.",
+            "homepage": "https://gitlab.com/Laravelium",
+            "keywords": [
+                "Sitemap",
+                "generator",
+                "google-news",
+                "html",
+                "laravel",
+                "laravelium",
+                "php",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://gitlab.com/Laravelium/Sitemap/issues",
+                "source": "https://gitlab.com/Laravelium/Sitemap",
+                "wiki": "https://gitlab.com/Laravelium/Sitemap/wikis/home"
+            },
+            "time": "2020-03-21T19:06:08+00:00"
         },
         {
             "name": "league/commonmark",
@@ -5348,16 +5416,16 @@
         },
         {
             "name": "yajra/laravel-datatables-oracle",
-            "version": "v9.15.2",
+            "version": "v9.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yajra/laravel-datatables.git",
-                "reference": "e0b416d8b7d4472b16217c40e74284074cc34dde"
+                "reference": "4779bcbb13d1ecad3cd2190999e19cb74798dbdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/e0b416d8b7d4472b16217c40e74284074cc34dde",
-                "reference": "e0b416d8b7d4472b16217c40e74284074cc34dde",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables/zipball/4779bcbb13d1ecad3cd2190999e19cb74798dbdd",
+                "reference": "4779bcbb13d1ecad3cd2190999e19cb74798dbdd",
                 "shasum": ""
             },
             "require": {
@@ -5417,7 +5485,7 @@
             ],
             "support": {
                 "issues": "https://github.com/yajra/laravel-datatables/issues",
-                "source": "https://github.com/yajra/laravel-datatables/tree/v9.15.2"
+                "source": "https://github.com/yajra/laravel-datatables/tree/v9.17.0"
             },
             "funding": [
                 {
@@ -5429,7 +5497,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2020-12-09T15:42:04+00:00"
+            "time": "2021-03-19T09:13:50+00:00"
         }
     ],
     "packages-dev": [
@@ -6233,16 +6301,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "6ecda5217bf048088b891f7403b262906be5a957"
+                "reference": "f6e14679f948d8a5cfb866fa7065a30c66bd64d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/6ecda5217bf048088b891f7403b262906be5a957",
-                "reference": "6ecda5217bf048088b891f7403b262906be5a957",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/f6e14679f948d8a5cfb866fa7065a30c66bd64d3",
+                "reference": "f6e14679f948d8a5cfb866fa7065a30c66bd64d3",
                 "shasum": ""
             },
             "require": {
@@ -6292,7 +6360,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.10.0"
+                "source": "https://github.com/filp/whoops/tree/2.11.0"
             },
             "funding": [
                 {
@@ -6300,7 +6368,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-16T12:00:00+00:00"
+            "time": "2021-03-19T12:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
