@@ -1,5 +1,5 @@
 let categoryUrl = route('categories.index');
-alert(route().has('categories.index'));
+// alert(route().has('categories.index'));
 $(document).ready( function () {
     $('#categoryTbl').DataTable({
         processing: true,

@@ -11,14 +11,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @version February 24, 2021, 2:43 pm UTC
  *
  * @property string $name
- * @property integer $category
  */
 class Post extends Model
 {
     use SoftDeletes;
 
     public $table = 'posts';
-    
+
 
     protected $dates = ['deleted_at'];
 
@@ -26,7 +25,7 @@ class Post extends Model
 
     public $fillable = [
         'name',
-        'category'
+        'category_id'
     ];
 
     /**
@@ -37,7 +36,7 @@ class Post extends Model
     protected $casts = [
         'id' => 'integer',
         'name' => 'string',
-        'category' => 'integer'
+        'category_id' => 'integer'
     ];
 
     /**
@@ -46,8 +45,11 @@ class Post extends Model
      * @var array
      */
     public static $rules = [
-        
+
     ];
 
-    
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }

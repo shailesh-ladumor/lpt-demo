@@ -23,8 +23,6 @@
 @endsection
 @push('scripts')
 <script>
-    $('#category').select2({
-        multiple:true
-    });
+    $('#category').select2();
 </script>
 @endpush

@@ -19,7 +19,6 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.1",
         "laravelcollective/html": "^6.1",
-        "laravelium/sitemap": "7.*",
         "tightenco/ziggy": "^1.0",
         "yajra/laravel-datatables-oracle": "~9.0"
     },

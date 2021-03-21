@@ -43,7 +43,7 @@ class PostController extends AppBaseController
      */
     public function create()
     {
-        $category = Category::pluck('name');
+        $category = Category::pluck('name', 'id')->toArray();;
         return view('posts.create', compact('category'));
     }
 

@@ -11,7 +11,7 @@
         @foreach($posts as $post)
             <tr>
                 <td>{{ $post->name }}</td>
-                <td>{{ $post->category }}</td>
+                <td>{{ $post->category->name }}</td>
                 <td>
                     {!! Form::open(['route' => ['posts.destroy', $post->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

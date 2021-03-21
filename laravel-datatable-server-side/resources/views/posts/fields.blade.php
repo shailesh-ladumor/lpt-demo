@@ -7,7 +7,7 @@
 <!-- Category Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('category', 'Category:') !!}
-    {!! Form::select('category',$category, null, ['class' => 'form-control','id'=>'category', 'required','placeholder'=>'Select Category']) !!}
+    {!! Form::select('category_id',$category, null, ['class' => 'form-control','id'=>'category', 'required','placeholder'=>'Select Category']) !!}
 </div>
 
 <!-- Submit Field -->
